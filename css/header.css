@@ -1,5 +1,5 @@
 header {
-    background-color: var(--cor-1);
+    background-color: var(--color-1);
     /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     font-family: 'Ubuntu';
     display: flex;
@@ -10,21 +10,21 @@ header {
 
 
 header input {
-    background-color: var(--cor-1);
+    background-color: var(--color-1);
     width: 300px;
     border: none;
-    border-bottom: 2px solid var(--cor-fonte-branca);
+    border-bottom: 2px solid var(--color-font-white);
     margin-left: 150px;
 }
 
 header input::placeholder {
-    color: var(--cor-fonte-branca);
+    color: var(--color-font-white);
 }
 
 header h1,
 a,
 input {
-    color: var(--cor-fonte-branca);
+    color: var(--color-font-white);
 }
 
 header h1 {
@@ -38,7 +38,7 @@ header nav {
 }
 
 header a {
-    color: var(--cor-fonte-branca);
+    color: var(--color-font-white);
     text-decoration: none;
     font-size: 21px;
     line-height: 1.33;
