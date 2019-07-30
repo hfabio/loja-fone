@@ -1,17 +1,46 @@
 header {
     background-color: var(--cor-1);
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family: 'Ubuntu';
+    display: flex;
+    /*padding: 50px 50px 0px 50px;*/
+    padding: 5% 15% 0px 15%;
+    justify-content: space-between;
+}
+
+
+header input {
+    background-color: var(--cor-1);
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid var(--cor-fonte-branca);
+    margin-left: 150px;
+}
+
+header input::placeholder {
+    color: var(--cor-fonte-branca);
 }
 
 header h1,
-a {
+a,
+input {
     color: var(--cor-fonte-branca);
 }
 
 header h1 {
     font-size: 40px;
+    line-height: 1.2;
+}
+
+header nav {
+
+    vertical-align: middle;
 }
 
 header a {
     color: var(--cor-fonte-branca);
     text-decoration: none;
+    font-size: 21px;
+    line-height: 1.33;
+    margin: 10px 50px 0px 50px;
 }
