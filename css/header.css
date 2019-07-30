@@ -1,0 +1,17 @@
+header {
+    background-color: var(--cor-1);
+}
+
+header h1,
+a {
+    color: var(--cor-fonte-branca);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header a {
+    color: var(--cor-fonte-branca);
+    text-decoration: none;
+}
