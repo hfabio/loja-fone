@@ -1,5 +1,131 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-body {
-    background-color: var(--color-1);
+.container {
+    background: var(--color-1);
+    height: 965px;
+    /* height: 710px; */
+    margin: 120px;
+}
+
+.btn-comprar {
+    float: right;
+    width: 200px;
+    height: 60px;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-font-white);
+    border: solid 2px var(--color-btn-buy);
+    background-color: var(--color-btn-buy);
+    margin-right: 165px;
+}
+
+.btn-adicionar-carrinho {
+    float: right;
+    width: 220px;
+    height: 60px;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-font-white);
+    background-color: transparent;
+    border: solid 2px var(--color-font-white);
+    margin-right: 40px;
+}
+
+section {
+    overflow: hidden;
+}
+
+
+.retangle-background {
+    padding: 60px 0 0;
+    width: 600px;
+    height: 580px;
+    border-end-end-radius: 150px;
+    border-start-end-radius: 150px;
+    background-color: var(--color-font-white);
+    box-shadow: -20px 0px 15px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.headphones {
+    width: 550px;
+    height: 550px;
+    float: left;
+    margin-left: 105px;
+}
+
+.heart {
+    height: 50px;
+    width: 50px;
+    margin: 50px 50px 0 80px;
+    float: left;
+}
+
+.heart img {
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 800px;
+    height: 550px;
+    padding-top: 50px;
+    float: left;
+}
+
+.title {
+    width: 230px;
+    height: 30px;
+    color: var(--color-font-white);
+    font-family: "Ubuntu";
+    font-size: 25px;
+}
+
+.stars {
+    margin-top: 50px;
+    width: inherit;
+    display: flex;
+}
+
+.stars img {
+    margin-right: 10px;
+}
+
+.score {
+    font-size: 20px;
+    color: var(--color-font-white);
+    font-family: "Ubuntu";
+    margin: 25px 0 0 10px;
+}
+
+.frete {
+    font-size: 20px;
+    color: var(--color-font-white);
+    font-family: "Ubuntu";
+    margin-top: 30px;
+}
+
+.frete span {
+    margin-right: 80px;
+}
+
+.preco {
+    font-size: 20px;
+    color: var(--color-font-white);
+    font-family: "Ubuntu";
+    margin-top: 30px;
+}
+
+.preco span {
+    margin-right: 80px;
+}
+
+.descricao p {
+    padding-right: 200px;
+    font-size: 20px;
+    color: var(--color-font-white);
+    font-family: "Ubuntu";
+    margin-top: 80px;
+
 }
