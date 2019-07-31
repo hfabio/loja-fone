@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
+body {
+    background-image: linear-gradient(to top, #ff2e63, #252a34);
+}
+
+.white-card {
+    margin-top: 168px;
+    z-index: -1;
+    float: left;
+    background-color: var(--color-font-white);
+    height: 640px;
+    width: 120px;
+    box-shadow: inset -20px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
 .container {
     background: var(--color-1);
     height: 965px;
@@ -45,7 +59,7 @@ section {
     border-end-end-radius: 150px;
     border-start-end-radius: 150px;
     background-color: var(--color-font-white);
-    box-shadow: -20px 0px 15px rgba(0, 0, 0, 0.1);
+    /* box-shadow: -20px 0px 15px rgba(0, 0, 0, 0.5); */
     float: left;
 }
 
