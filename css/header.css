@@ -1,7 +1,7 @@
 header {
     background-color: var(--color-1);
     /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    font-family: 'Ubuntu';
+    font-family: var(--fonte);
     /*padding: 50px 50px 0px 50px;*/
     padding: 60px;
     color: var(--color-font-white);

@@ -114,17 +114,24 @@ section {
 }
 
 .frete {
+    font-size: 0;
+    width: 300px;
     font-size: 20px;
     color: var(--color-font-white);
     font-family: var(--fonte);
     margin-top: 30px;
+    display: flex;
+    align-content: space-between;
 }
 
 .frete span {
+    width: 70px;
+    display: inline-block;
     margin-right: 80px;
 }
 
 .preco {
+    font-size: 0;
     font-size: 20px;
     color: var(--color-font-white);
     font-family: var(--fonte);
@@ -132,6 +139,8 @@ section {
 }
 
 .preco span {
+    width: 70px;
+    display: inline-block;
     margin-right: 80px;
 }
 
