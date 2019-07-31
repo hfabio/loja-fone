@@ -92,7 +92,7 @@ section {
     width: 230px;
     height: 30px;
     color: var(--color-font-white);
-    font-family: "Ubuntu";
+    font-family: var(--fonte);
     font-size: 25px;
 }
 
@@ -109,14 +109,14 @@ section {
 .score {
     font-size: 20px;
     color: var(--color-font-white);
-    font-family: "Ubuntu";
+    font-family: var(--fonte);
     margin: 25px 0 0 10px;
 }
 
 .frete {
     font-size: 20px;
     color: var(--color-font-white);
-    font-family: "Ubuntu";
+    font-family: var(--fonte);
     margin-top: 30px;
 }
 
@@ -127,7 +127,7 @@ section {
 .preco {
     font-size: 20px;
     color: var(--color-font-white);
-    font-family: "Ubuntu";
+    font-family: var(--fonte);
     margin-top: 30px;
 }
 
@@ -139,7 +139,7 @@ section {
     padding-right: 200px;
     font-size: 20px;
     color: var(--color-font-white);
-    font-family: "Ubuntu";
+    font-family: var(--fonte);
     margin-top: 80px;
 
 }
