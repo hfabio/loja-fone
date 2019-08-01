@@ -1,21 +1,17 @@
-# HTML5
+# Projeto de aprendizado provido pelo CollabCode
 
-É uma linguagem de marcação (TAGS) que tem as seguintes responsabilidades:
+Projeto desenvolvido com HTML e CSS para o curso do CollabCode.
 
-- Conteúdo
-- Semântica (tags)
+`Disclaimer`: Por ser ansioso eu desenvolvi a página inteira por antecedência, então as soluções utilizadas foram feitas por mim, e não só podem como provavelmente não terão as melhores práticas ensinadas pelo Marco/Joviane (portanto podem não apresentar a solução comercialmente mais viável). O curso tem sido excelente e eu tenho aprendido bastante.
 
-## TAGS
+## Imagem
+![image](https://user-images.githubusercontent.com/15989467/62332919-b6b6b780-b497-11e9-98cc-e202dc65c0e0.png)
+![image](https://user-images.githubusercontent.com/15989467/62332941-c9c98780-b497-11e9-8902-baaab5dc5c82.png)
 
-* `<h1>`    -   título de tamanho 1 (pode variar de 1 a 6)
+### Idealizador do projeto
 
-Usamos quando queremos definir títulos
+[Marco Bruno #CollabCode](https://github.com/marcobrunobr)
 
-* `<a>`     -   Links (a - anchor)
+### Desenvolvedor desta instância:
 
-Usamos para definir navegação do usuário. Se você tem um texto que você quer que o usuário clique e vá para outro lugar você pode usar esta tag em conjunto com o atributo `href` para indicar onde deve ir. Ex:. `<a href="https://google.com">google</a>`. Outro atributo é o `target` para definir onde deve ser levado. Ex:. `<a href="https://google.com" target="_blank">google</a>` para abrir numa nova aba.
-
-
-# CSS
-
-É uma linguagem de estilo, isso quer dizer que ela lida com as aparências
+[Helton Fábio #SuperNova](https://github.com/hfabio)
