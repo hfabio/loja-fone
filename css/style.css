@@ -154,5 +154,13 @@ body {
     color: var(--color-font-white);
     font-family: var(--fonte);
     margin-top: 80px;
+}
 
+.more {
+    padding-right: 200px;
+    font-size: 20px;
+    color: var(--color-font-white);
+    font-family: var(--fonte);
+    margin-top: 80px;
+    text-decoration: none;
 }

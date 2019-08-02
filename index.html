@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/cores.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <!-- js -->
+    <script src="./js/functions.js"></script>
     <title>Loja de fone</title>
 </head>
 
@@ -30,19 +33,19 @@
                 <img class="headphones" src="./img/headphones.png" alt="headphones">
             </div>
             <div class="heart">
-                <img src="./img/heart-empty.png" alt="">
-                <img src="./img/heart-full.png" alt="">
+                <img id="heart" src="./img/heart-empty.png" onclick="toggleHeart()">
+                <!--<img src="./img/heart-full.png" alt="">-->
             </div>
             <div class="content">
                 <!-- titulo do produto -->
                 <span class="title">Fone top, feliz e caro</span>
                 <!-- estrelas produto -->
                 <div class="stars">
-                    <img src="./img/star-full.png" alt="">
-                    <img src="./img/star-full.png" alt="">
-                    <img src="./img/star-full.png" alt="">
-                    <img src="./img/star-full.png" alt="">
-                    <img src="./img/star-empty.png" alt="">
+                    <img onclick="clickStar(1)" src="./img/star-full.png" alt="">
+                    <img onclick="clickStar(2)" src="./img/star-full.png" alt="">
+                    <img onclick="clickStar(3)" src="./img/star-full.png" alt="">
+                    <img onclick="clickStar(4)" src="./img/star-full.png" alt="">
+                    <img onclick="clickStar(5)" src="./img/star-empty.png" alt="">
                 </div>
                 <!-- score produto -->
                 <div class="score">
@@ -61,7 +64,7 @@
                     <p>
                         Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk
                     </p>
-                    <p>Saber mais...</p>
+                    <p><a href="#" class="more">Saber mais...</a></p>
                 </div>
                 <!-- saiba mais -->
             </div>
