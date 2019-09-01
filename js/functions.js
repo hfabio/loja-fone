@@ -12,6 +12,7 @@ function clickStar(value) {
         let star = document.createElement('img');
         star.setAttribute('onclick', `clickStar(${i + 1})`);
         star.src = (value - 1 < i) ? './img/star-empty.png' : './img/star-full.png';
+        star.classList.add('star');
         stars.appendChild(star);
     }
 }

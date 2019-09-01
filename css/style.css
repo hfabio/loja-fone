@@ -5,7 +5,7 @@ body {
 }
 
 .white-card {
-    margin-top: 168px;
+    margin-top: 173px;
     z-index: -1;
     float: left;
     background-color: var(--color-font-white);
@@ -36,6 +36,19 @@ body {
     border: solid 2px var(--color-btn-buy);
     background-color: var(--color-btn-buy);
     margin-right: 165px;
+
+    transition: all 200ms;
+}
+
+.btn-comprar:hover,
+.btn-comprar:focus {
+    color: var(--color-btn-buy);
+    border: solid 2px var(--color-font-white);
+    background-color: var(--color-font-white);
+}
+
+.btn-comprar:active {
+    transform: scale(0.9);
 }
 
 .btn-adicionar-carrinho {
@@ -49,6 +62,19 @@ body {
     background-color: transparent;
     border: solid 2px var(--color-font-white);
     margin-right: 40px;
+
+    transition: all 200ms;
+}
+
+.btn-adicionar-carrinho:hover,
+.btn-adicionar-carrinho:focus {
+    color: var(--color-1);
+    background-color: var(--color-font-white);
+    border: solid 2px var(--color-1);
+}
+
+.btn-adicionar-carrinho:active {
+    transform: scale(0.9);
 }
 
 .section-content {
@@ -60,11 +86,11 @@ body {
     padding: 60px 0 0;
     width: 600px;
     height: 580px;
-    border-end-end-radius: 150px;
-    border-start-end-radius: 150px;
     background-color: var(--color-font-white);
     /* box-shadow: -20px 0px 15px rgba(0, 0, 0, 0.5); */
     float: left;
+    border-end-end-radius: 150px;
+    border-start-end-radius: 150px;
 }
 
 .headphones {
@@ -83,6 +109,14 @@ body {
 
 .heart img {
     margin-bottom: 10px;
+    cursor: pointer;
+
+    transition: all linear 100ms;
+}
+
+.heart img:hover,
+.heart img:focus {
+    transform: scale(1.2);
 }
 
 .content {
@@ -98,6 +132,16 @@ body {
     color: var(--color-font-white);
     font-family: var(--fonte);
     font-size: 25px;
+}
+
+.star {
+    cursor: pointer;
+    transition: all linear 100ms;
+}
+
+.star:hover,
+.star:focus {
+    transform: scale(1.2);
 }
 
 .stars {
